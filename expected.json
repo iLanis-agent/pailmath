@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "pails",
+   "args": [
+    "315",
+    "8"
+   ],
+   "expect": "The 315 apples at 8 apples a pail take 40 pails, the last pail holding 3 apples."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "315",
+    "25"
+   ],
+   "expect": "The 315 apples at 25 apples a week last 12 full weeks with 15 apples left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40",
+    "9.60",
+    "315"
+   ],
+   "expect": "The 40 pails at $9.60 a pail come to $384.00, $1.22 an apple."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "315",
+    "4"
+   ],
+   "expect": "The 315 apples at 4 apples a minute take 79 minutes, 1 hour 19 minutes."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 apple at 1 apple a pail takes 1 pail, the last pail holding 1 apple."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "360",
+    "8"
+   ],
+   "expect": "The 360 apples at 8 apples a pail take 45 pails, the last pail holding 8 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 apples at 1000 apples a pail take 1000 pails, the last pail holding 1000 apples."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 apple at 1 apple a week lasts 1 full week with 0 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "360",
+    "30"
+   ],
+   "expect": "The 360 apples at 30 apples a week last 12 full weeks with 0 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 apples at 100000 apples a week last 10 full weeks with 0 apples left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 pail at $0.01 a pail comes to $0.01, $0.01 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 pails at $999.99 a pail come to $99999000.00, $100.00 an apple."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 apple at 1 apple a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 apples at 1 apple a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 apples at 100 apples a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "615163",
+    "495"
+   ],
+   "expect": "The 615163 apples at 495 apples a pail take 1243 pails, the last pail holding 373 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "979170",
+    "831"
+   ],
+   "expect": "The 979170 apples at 831 apples a pail take 1179 pails, the last pail holding 252 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "9603",
+    "842"
+   ],
+   "expect": "The 9603 apples at 842 apples a pail take 12 pails, the last pail holding 341 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "376397",
+    "185"
+   ],
+   "expect": "The 376397 apples at 185 apples a pail take 2035 pails, the last pail holding 107 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "684000",
+    "906"
+   ],
+   "expect": "The 684000 apples at 906 apples a pail take 755 pails, the last pail holding 876 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "733591",
+    "138"
+   ],
+   "expect": "The 733591 apples at 138 apples a pail take 5316 pails, the last pail holding 121 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "557032",
+    "206"
+   ],
+   "expect": "The 557032 apples at 206 apples a pail take 2705 pails, the last pail holding 8 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "659683",
+    "161"
+   ],
+   "expect": "The 659683 apples at 161 apples a pail take 4098 pails, the last pail holding 66 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "330551",
+    "813"
+   ],
+   "expect": "The 330551 apples at 813 apples a pail take 407 pails, the last pail holding 473 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "670138",
+    "642"
+   ],
+   "expect": "The 670138 apples at 642 apples a pail take 1044 pails, the last pail holding 532 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "257315",
+    "401"
+   ],
+   "expect": "The 257315 apples at 401 apples a pail take 642 pails, the last pail holding 274 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "871158",
+    "819"
+   ],
+   "expect": "The 871158 apples at 819 apples a pail take 1064 pails, the last pail holding 561 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "237635",
+    "444"
+   ],
+   "expect": "The 237635 apples at 444 apples a pail take 536 pails, the last pail holding 95 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "983295",
+    "775"
+   ],
+   "expect": "The 983295 apples at 775 apples a pail take 1269 pails, the last pail holding 595 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "596173",
+    "781"
+   ],
+   "expect": "The 596173 apples at 781 apples a pail take 764 pails, the last pail holding 270 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "70267",
+    "893"
+   ],
+   "expect": "The 70267 apples at 893 apples a pail take 79 pails, the last pail holding 613 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "242729",
+    "872"
+   ],
+   "expect": "The 242729 apples at 872 apples a pail take 279 pails, the last pail holding 313 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "26086",
+    "603"
+   ],
+   "expect": "The 26086 apples at 603 apples a pail take 44 pails, the last pail holding 157 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "47913",
+    "366"
+   ],
+   "expect": "The 47913 apples at 366 apples a pail take 131 pails, the last pail holding 333 apples."
+  },
+  {
+   "fn": "pails",
+   "args": [
+    "554246",
+    "648"
+   ],
+   "expect": "The 554246 apples at 648 apples a pail take 856 pails, the last pail holding 206 apples."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "56668",
+    "74800"
+   ],
+   "expect": "The 56668 apples at 74800 apples a week last 0 full weeks with 56668 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "392073",
+    "84980"
+   ],
+   "expect": "The 392073 apples at 84980 apples a week last 4 full weeks with 52153 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "445679",
+    "71392"
+   ],
+   "expect": "The 445679 apples at 71392 apples a week last 6 full weeks with 17327 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "807669",
+    "21940"
+   ],
+   "expect": "The 807669 apples at 21940 apples a week last 36 full weeks with 17829 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "762978",
+    "52449"
+   ],
+   "expect": "The 762978 apples at 52449 apples a week last 14 full weeks with 28692 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "636932",
+    "32898"
+   ],
+   "expect": "The 636932 apples at 32898 apples a week last 19 full weeks with 11870 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "463211",
+    "62659"
+   ],
+   "expect": "The 463211 apples at 62659 apples a week last 7 full weeks with 24598 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "687690",
+    "99000"
+   ],
+   "expect": "The 687690 apples at 99000 apples a week last 6 full weeks with 93690 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "94611",
+    "8927"
+   ],
+   "expect": "The 94611 apples at 8927 apples a week last 10 full weeks with 5341 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "264881",
+    "59600"
+   ],
+   "expect": "The 264881 apples at 59600 apples a week last 4 full weeks with 26481 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "752686",
+    "96164"
+   ],
+   "expect": "The 752686 apples at 96164 apples a week last 7 full weeks with 79538 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "962932",
+    "90867"
+   ],
+   "expect": "The 962932 apples at 90867 apples a week last 10 full weeks with 54262 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "305435",
+    "92050"
+   ],
+   "expect": "The 305435 apples at 92050 apples a week last 3 full weeks with 29285 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "165679",
+    "38403"
+   ],
+   "expect": "The 165679 apples at 38403 apples a week last 4 full weeks with 12067 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "860985",
+    "18004"
+   ],
+   "expect": "The 860985 apples at 18004 apples a week last 47 full weeks with 14797 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "734549",
+    "67740"
+   ],
+   "expect": "The 734549 apples at 67740 apples a week last 10 full weeks with 57149 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "119517",
+    "51762"
+   ],
+   "expect": "The 119517 apples at 51762 apples a week last 2 full weeks with 15993 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "203069",
+    "68640"
+   ],
+   "expect": "The 203069 apples at 68640 apples a week last 2 full weeks with 65789 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "157751",
+    "7781"
+   ],
+   "expect": "The 157751 apples at 7781 apples a week last 20 full weeks with 2131 apples left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "201418",
+    "53150"
+   ],
+   "expect": "The 201418 apples at 53150 apples a week last 3 full weeks with 41968 apples left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "18299",
+    "25.34",
+    "583831"
+   ],
+   "expect": "The 18299 pails at $25.34 a pail come to $463696.66, $0.79 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98105",
+    "109.78",
+    "780575"
+   ],
+   "expect": "The 98105 pails at $109.78 a pail come to $10769966.90, $13.80 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "13065",
+    "158.19",
+    "819052"
+   ],
+   "expect": "The 13065 pails at $158.19 a pail come to $2066752.35, $2.52 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "50468",
+    "662.95",
+    "765643"
+   ],
+   "expect": "The 50468 pails at $662.95 a pail come to $33457760.60, $43.70 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "22510",
+    "555.52",
+    "948755"
+   ],
+   "expect": "The 22510 pails at $555.52 a pail come to $12504755.20, $13.18 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "51550",
+    "345.17",
+    "976977"
+   ],
+   "expect": "The 51550 pails at $345.17 a pail come to $17793513.50, $18.21 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "61612",
+    "182.95",
+    "260359"
+   ],
+   "expect": "The 61612 pails at $182.95 a pail come to $11271915.40, $43.29 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "78080",
+    "690.17",
+    "987566"
+   ],
+   "expect": "The 78080 pails at $690.17 a pail come to $53888473.60, $54.57 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "10814",
+    "419.33",
+    "602020"
+   ],
+   "expect": "The 10814 pails at $419.33 a pail come to $4534634.62, $7.53 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40545",
+    "179.15",
+    "175642"
+   ],
+   "expect": "The 40545 pails at $179.15 a pail come to $7263636.75, $41.35 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "66736",
+    "122.99",
+    "365666"
+   ],
+   "expect": "The 66736 pails at $122.99 a pail come to $8207860.64, $22.45 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "73562",
+    "407.03",
+    "433613"
+   ],
+   "expect": "The 73562 pails at $407.03 a pail come to $29941940.86, $69.05 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "21081",
+    "789.2",
+    "148648"
+   ],
+   "expect": "The 21081 pails at $789.20 a pail come to $16637125.20, $111.92 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "91599",
+    "144.08",
+    "598216"
+   ],
+   "expect": "The 91599 pails at $144.08 a pail come to $13197583.92, $22.06 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "82862",
+    "290.61",
+    "201410"
+   ],
+   "expect": "The 82862 pails at $290.61 a pail come to $24080525.82, $119.56 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8325",
+    "739.13",
+    "931596"
+   ],
+   "expect": "The 8325 pails at $739.13 a pail come to $6153257.25, $6.61 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "23435",
+    "552.9",
+    "946075"
+   ],
+   "expect": "The 23435 pails at $552.90 a pail come to $12957211.50, $13.70 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "67045",
+    "904.54",
+    "50942"
+   ],
+   "expect": "The 67045 pails at $904.54 a pail come to $60644884.30, $1190.47 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "60378",
+    "319.11",
+    "548205"
+   ],
+   "expect": "The 60378 pails at $319.11 a pail come to $19267223.58, $35.15 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "33422",
+    "529.73",
+    "984952"
+   ],
+   "expect": "The 33422 pails at $529.73 a pail come to $17704636.06, $17.98 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "43310",
+    "930.83",
+    "498952"
+   ],
+   "expect": "The 43310 pails at $930.83 a pail come to $40314247.30, $80.80 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "6223",
+    "785.44",
+    "636091"
+   ],
+   "expect": "The 6223 pails at $785.44 a pail come to $4887793.12, $7.68 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "16037",
+    "667.91",
+    "167820"
+   ],
+   "expect": "The 16037 pails at $667.91 a pail come to $10711272.67, $63.83 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "58601",
+    "353.35",
+    "758324"
+   ],
+   "expect": "The 58601 pails at $353.35 a pail come to $20706663.35, $27.31 an apple."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "9186",
+    "267.44",
+    "432233"
+   ],
+   "expect": "The 9186 pails at $267.44 a pail come to $2456703.84, $5.68 an apple."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "201929",
+    "45"
+   ],
+   "expect": "The 201929 apples at 45 apples a minute take 4488 minutes, 74 hours 48 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "526506",
+    "64"
+   ],
+   "expect": "The 526506 apples at 64 apples a minute take 8227 minutes, 137 hours 7 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "733669",
+    "51"
+   ],
+   "expect": "The 733669 apples at 51 apples a minute take 14386 minutes, 239 hours 46 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "451798",
+    "73"
+   ],
+   "expect": "The 451798 apples at 73 apples a minute take 6190 minutes, 103 hours 10 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "863289",
+    "63"
+   ],
+   "expect": "The 863289 apples at 63 apples a minute take 13703 minutes, 228 hours 23 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "149005",
+    "12"
+   ],
+   "expect": "The 149005 apples at 12 apples a minute take 12418 minutes, 206 hours 58 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "813579",
+    "57"
+   ],
+   "expect": "The 813579 apples at 57 apples a minute take 14274 minutes, 237 hours 54 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "290704",
+    "50"
+   ],
+   "expect": "The 290704 apples at 50 apples a minute take 5815 minutes, 96 hours 55 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "715918",
+    "61"
+   ],
+   "expect": "The 715918 apples at 61 apples a minute take 11737 minutes, 195 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "629900",
+    "61"
+   ],
+   "expect": "The 629900 apples at 61 apples a minute take 10327 minutes, 172 hours 7 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "287981",
+    "7"
+   ],
+   "expect": "The 287981 apples at 7 apples a minute take 41141 minutes, 685 hours 41 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "471381",
+    "74"
+   ],
+   "expect": "The 471381 apples at 74 apples a minute take 6371 minutes, 106 hours 11 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "855211",
+    "21"
+   ],
+   "expect": "The 855211 apples at 21 apples a minute take 40725 minutes, 678 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "70832",
+    "80"
+   ],
+   "expect": "The 70832 apples at 80 apples a minute take 886 minutes, 14 hours 46 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "471627",
+    "66"
+   ],
+   "expect": "The 471627 apples at 66 apples a minute take 7146 minutes, 119 hours 6 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "774112",
+    "64"
+   ],
+   "expect": "The 774112 apples at 64 apples a minute take 12096 minutes, 201 hours 36 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "587484",
+    "71"
+   ],
+   "expect": "The 587484 apples at 71 apples a minute take 8275 minutes, 137 hours 55 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "753610",
+    "2"
+   ],
+   "expect": "The 753610 apples at 2 apples a minute take 376805 minutes, 6280 hours 5 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "264097",
+    "94"
+   ],
+   "expect": "The 264097 apples at 94 apples a minute take 2810 minutes, 46 hours 50 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "pails",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "pails",
+   [
+    "1000001",
+    "8"
+   ]
+  ],
+  [
+   "pails",
+   [
+    "2.5",
+    "8"
+   ]
+  ],
+  [
+   "pails",
+   [
+    "315",
+    "0"
+   ]
+  ],
+  [
+   "pails",
+   [
+    "315",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "315",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "315",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "315",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "12.75",
+    "315"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "12.75",
+    "315"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "0",
+    "315"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.755",
+    "315"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.75",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "315",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "315",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "315",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
